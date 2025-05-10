@@ -16,7 +16,7 @@ Bu proje, YouTube videolarını kolayca MP3 formatında indirmenizi sağlayan ba
 ## 🔧 Kurulum
 
 Aşağıdaki komutlarla gerekli bağımlılığı kurabilirsiniz:
-
+````
 ```bash
 pip install yt-dlp
 ````
@@ -88,5 +88,3 @@ Hataları [issue sekmesinden](https://github.com/egecher/youtube-mp3-converter/i
 
 MIT Lisansı altında yayınlanmıştır.
 Detaylar için [LICENSE](https://github.com/Egecher/youtube-mp3-converter/blob/main/LICENSE) dosyasına bakın.
-
-```# youtube-mp3-converter
