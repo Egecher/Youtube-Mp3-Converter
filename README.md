@@ -1,4 +1,3 @@
-````markdown
 # 🎵 YouTube MP3 İndirici (GUI)
 
 Bu proje, YouTube videolarını kolayca MP3 formatında indirmenizi sağlayan basit ve kullanıcı dostu bir Python arayüzüdür.  
@@ -16,10 +15,9 @@ Bu proje, YouTube videolarını kolayca MP3 formatında indirmenizi sağlayan ba
 ## 🔧 Kurulum
 
 Aşağıdaki komutlarla gerekli bağımlılığı kurabilirsiniz:
-````
 ```bash
 pip install yt-dlp
-````
+```
 
 Güncel sürümünü yüklemek için:
 
