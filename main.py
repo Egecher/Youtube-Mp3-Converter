@@ -16,6 +16,14 @@ def download_youtube_video_as_mp3(youtube_url):
         'noplaylist': True,  # Sadece bir video indir, oynatma listesi değil
     }
 
+    # ydl_opts = { //mp4 için
+    #     'format': 'bestvideo+bestaudio/best',
+    #     'merge_output_format': 'mp4',
+    #     'outtmpl': '%(title)s.%(ext)s',
+    #     'ignoreerrors': True,
+    #     'noplaylist': True,
+    # }
+
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([youtube_url])
